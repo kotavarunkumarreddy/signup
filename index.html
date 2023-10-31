@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="signup">
+        <h1>New User Signup</h1>
+        
+            <input type="text" id="fname" name="name" oninput="firstName()" placeholder="First name"><br>
+            <span id="fname-err"></span><br><br>
+            <input type="text" id="username" name="name" oninput="userName()" placeholder="user name"><br>
+            <span id="username-err"></span><br><br>
+            <input type="email" id="mail" name="email" oninput="email()" placeholder="email"><br>
+            <span id="email-err"></span><br><br>
+            <input type="password" id="pswrd" name="password" oninput="password()" placeholder="password"><br>
+            <span id="pswd-err"></span><br><br>
+            <input type="tel" id="tel" name="mobnumber" oninput="mobile()" placeholder="mobile no"><br>
+            <span id="mob-err"></span><br><br>
+            <input type="text" id="pan" name="pan" oninput="panv()" placeholder="pan no"><br>
+            <span id="pan-err"></span>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
